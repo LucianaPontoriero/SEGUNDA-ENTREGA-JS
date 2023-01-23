@@ -1,0 +1,18 @@
+
+body {
+    background-color: rgba(57, 245, 239, 0.534);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+h1{
+    color: rgb(250, 153, 224);
+    text-align: center;
+}
